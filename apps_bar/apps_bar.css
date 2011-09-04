@@ -1,0 +1,61 @@
+#adomado-apps-bar {
+	position : fixed;
+	top : 0px;
+	left : -100px;
+	height : 100%;
+	display : block;
+	border : 1px solid #C0C0C0;
+	border-left : none;
+	padding : 0px;
+	background-color : #ccc;
+	z-index : 100001;
+}
+
+.apps-bar-app img{
+	width : 48px;
+	height : 48px;
+	border : none;
+	border-radius : 5px;
+}
+
+.apps-bar-app {
+	float : left;
+	margin-bottom : 5px;
+	border : 2px solid transparent;
+	border-radius : 5px;
+	margin-left : 10px;
+	margin-right : 10px;
+}
+
+.apps-bar-app:hover {
+	border-color : #999;
+	cursor : pointer;
+}
+
+#apps-bar-list {
+	margin-top : 0px;
+	overflow : hidden;
+}
+
+#adomado-apps-bar-trigger {
+	position : fixed;
+	top : 0px;
+	left : 0px;
+	padding : 5px;
+	font-size : 15px;
+	color : #000;
+	background-color : #ccc;
+	z-index : 100000;
+	border-bottom-right-radius : 10px;
+}
+
+#apps-bar-more {
+	position : absolute;
+	bottom : 0px;
+	height : 20px;
+	width : 100%;
+	text-align : center;
+	background-color : #C0C0C0;
+
+
+}
